@@ -2,6 +2,28 @@
   "schema_version": 1,
   "releases": [
     {
+      "kind": "ice-gateway",
+      "version": "1.7.0-ice23-pico2-rc14-admission-dev",
+      "source_repository": "qpwo5470/W5100S-Wireless-Serial",
+      "source_commit": "d7f135fea27e543f24b4e621272aef8c2b1f2be7",
+      "transport": "gateway-ota",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/gateway-rc14-d7f135fea27e/ops408-ice-gateway.manifest.json",
+      "manifest_sha256": "7cc13c4e6801ad7b5fcb16b042eee088e5d52ecd26ab741295e2ab03181505fd",
+      "manifest_size": 1484,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/gateway-rc14-d7f135fea27e/ice-gateway-d7f135fea27e.ota.bin",
+      "prerelease": true,
+      "tag": "gateway-rc14-d7f135fea27e",
+      "usb_artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/gateway-rc14-d7f135fea27e/ice-gateway-d7f135fea27e.combined.uf2",
+      "usb_manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/gateway-rc14-d7f135fea27e/ops408-ice-gateway-usb.manifest.json",
+      "usb_manifest_sha256": "d114995e35e10c24927095f6706acaac5f2e4da03e9751e7b5b01ebb6526f0ab",
+      "usb_manifest_size": 1168,
+      "provisioning_guide_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/gateway-rc14-d7f135fea27e/USB-PROVISIONING.md",
+      "command_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/gateway-rc14-d7f135fea27e/COMMAND-ADMISSION-V2.md",
+      "owner_protocol": 1,
+      "admission_protocol": 2,
+      "app_change_required": "Stable owner reconnect requires capability-negotiated device_id and secure owner_key persistence in the app. Legacy token-only clients remain connection-owned."
+    },
+    {
       "kind": "cup",
       "version": "2.0.0-rc17",
       "source_repository": "qpwo5470/evoca-firmware",
