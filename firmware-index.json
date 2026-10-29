@@ -2,6 +2,486 @@
   "schema_version": 1,
   "releases": [
     {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-button_flow.manifest.json",
+      "manifest_sha256": "d4f366dc4f7ea9223b919834d7389a9c09e21aecb11b598f74a949521434a17c",
+      "manifest_size": 1917,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_button_flow.uf2",
+      "variant_name": "button_flow",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-button_flow_debug.manifest.json",
+      "manifest_sha256": "9f49c11087471fcfb8a5d4cfc303a3c3100274fa7abf01bae2a5ed3a3f29d427",
+      "manifest_size": 1941,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_button_flow_debug.uf2",
+      "variant_name": "button_flow_debug",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-button_time.manifest.json",
+      "manifest_sha256": "9d1b48ce7fb7d3fd639732403746205b1a53b8e09fdf092d1027d1d7eb6dedb6",
+      "manifest_size": 1917,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_button_time.uf2",
+      "variant_name": "button_time",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-button_time_debug.manifest.json",
+      "manifest_sha256": "a7ae4514761b5f75a7d63f4697a1e50c92f7cc30067a1210091e3e2eb9fbca58",
+      "manifest_size": 1941,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_button_time_debug.uf2",
+      "variant_name": "button_time_debug",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-headless_flow.manifest.json",
+      "manifest_sha256": "f3d0b8baf3a90ca71afb9aa4e30db32b0003a1283ad86eb7ecc2adbbb08801bc",
+      "manifest_size": 1925,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_headless_flow.uf2",
+      "variant_name": "headless_flow",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-headless_flow_debug.manifest.json",
+      "manifest_sha256": "49e350381df7286c486470b59a6f5d15a6a7360248a37a5ac5753446a2d73492",
+      "manifest_size": 1949,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_headless_flow_debug.uf2",
+      "variant_name": "headless_flow_debug",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-headless_time.manifest.json",
+      "manifest_sha256": "41418839cb67a6ea7a704877e7f13de20147f9c5f5414fb50d28a14a0f391c02",
+      "manifest_size": 1925,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_headless_time.uf2",
+      "variant_name": "headless_time",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-headless_time_debug.manifest.json",
+      "manifest_sha256": "bbd27bade2f371da263f124485bd9873aa9a95bc52ce3f1fe818e3f93c6464ab",
+      "manifest_size": 1949,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_headless_time_debug.uf2",
+      "variant_name": "headless_time_debug",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-new_button_flow.manifest.json",
+      "manifest_sha256": "7aac5ce5ed8c7885ef497fbde8c174f7b4d9d0e56a66b809290391ea72680305",
+      "manifest_size": 1933,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_new_button_flow.uf2",
+      "variant_name": "new_button_flow",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-new_button_flow_debug.manifest.json",
+      "manifest_sha256": "befbfd625c246652de7b826a345dd26b75c082d2bf2c7089df74f39b845e064e",
+      "manifest_size": 1957,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_new_button_flow_debug.uf2",
+      "variant_name": "new_button_flow_debug",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-new_button_time.manifest.json",
+      "manifest_sha256": "a148b1a934bc2d122ad928005fbab62cf6bed36ef61cc5e81a6bc3682a60a05c",
+      "manifest_size": 1933,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_new_button_time.uf2",
+      "variant_name": "new_button_time",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-new_button_time_debug.manifest.json",
+      "manifest_sha256": "6235315aff271e8b698a4f4c51e1613ab9157d383a2163496cecda3f17ed7952",
+      "manifest_size": 1957,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_new_button_time_debug.uf2",
+      "variant_name": "new_button_time_debug",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-new_headless_flow.manifest.json",
+      "manifest_sha256": "50f246f27804fd73684c0be1de6192b862e54946904ba2c20e42ca472e2eed56",
+      "manifest_size": 1941,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_new_headless_flow.uf2",
+      "variant_name": "new_headless_flow",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-new_headless_flow_debug.manifest.json",
+      "manifest_sha256": "57563b0caded0c4c4ff7c676adebc380e157b86c49630d75bad9d4c83367967f",
+      "manifest_size": 1965,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_new_headless_flow_debug.uf2",
+      "variant_name": "new_headless_flow_debug",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-new_headless_time.manifest.json",
+      "manifest_sha256": "cbff16bd2234eead49eba5869299c950e31f265b245bd9256de9c576cf0fae9f",
+      "manifest_size": 1941,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_new_headless_time.uf2",
+      "variant_name": "new_headless_time",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-new_headless_time_debug.manifest.json",
+      "manifest_sha256": "c48d4b10eeacaf46b0ccdf0fdd743451f92fec4c485be44e43c01a1cf1b069d9",
+      "manifest_size": 1965,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_new_headless_time_debug.uf2",
+      "variant_name": "new_headless_time_debug",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-new_standard_flow.manifest.json",
+      "manifest_sha256": "8cea73a6a287b09ec06475256f6040d6e1f87de7d9a91f2f9d8cc15f6b6a8b06",
+      "manifest_size": 1941,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_new_standard_flow.uf2",
+      "variant_name": "new_standard_flow",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-new_standard_flow_debug.manifest.json",
+      "manifest_sha256": "669f447966aa239ee07e48b44e7a92d9dbd1b714eaf4d505e488fd2c77f73a84",
+      "manifest_size": 1965,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_new_standard_flow_debug.uf2",
+      "variant_name": "new_standard_flow_debug",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-new_standard_time.manifest.json",
+      "manifest_sha256": "735fe87ac759be19aece0097ef81ddaf08a06835a65665bfa82b11da940ac06d",
+      "manifest_size": 1941,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_new_standard_time.uf2",
+      "variant_name": "new_standard_time",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-new_standard_time_debug.manifest.json",
+      "manifest_sha256": "b9ba505934a07b07b28770e56ae31d1cb90feddf4718977cb03161f218770001",
+      "manifest_size": 1965,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_new_standard_time_debug.uf2",
+      "variant_name": "new_standard_time_debug",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-standard_flow.manifest.json",
+      "manifest_sha256": "adf0c2b2ba1b537f6876c836d56845386dac0dfbc71093df7321fd4c5ddadde4",
+      "manifest_size": 1925,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_standard_flow.uf2",
+      "variant_name": "standard_flow",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-standard_flow_debug.manifest.json",
+      "manifest_sha256": "0f1d581af35fddde31ecfe31892b83104dc33d7e5251a811a4aa0a0cae6d9632",
+      "manifest_size": 1949,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_standard_flow_debug.uf2",
+      "variant_name": "standard_flow_debug",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-standard_time.manifest.json",
+      "manifest_sha256": "bd1f1ab9c6a7c8c0d3c967db562b90b9ce26729591ef20d75b1d28ed2851249f",
+      "manifest_size": 1925,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_standard_time.uf2",
+      "variant_name": "standard_time",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
+      "kind": "ice-control",
+      "version": "1.4.9",
+      "source_repository": "qpwo5470/IceControlBoard",
+      "source_commit": "e2fb19c785f8006b899cff677e89c67eb841707a",
+      "transport": "usb-uf2",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/ops408-ice-control-standard_time_debug.manifest.json",
+      "manifest_sha256": "4075f1706f45025408a3b8fda83069ab23c32e7f64852f1ac0b27a533a793da6",
+      "manifest_size": 1949,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/IceControlBoard_1.4.9_standard_time_debug.uf2",
+      "variant_name": "standard_time_debug",
+      "prerelease": true,
+      "tag": "ice-control-149-e2fb19c785f8",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/ice-control-149-e2fb19c785f8/LOGGING-V2.md",
+      "relay_ota_validated": false,
+      "limitations": [
+        "Gateway relay banner/OKAY defect unresolved. File publication does not validate relay OTA.",
+        "No hardware timing, power loss or installation validation."
+      ]
+    },
+    {
       "kind": "cup",
       "version": "2.0.0-rc18",
       "source_repository": "qpwo5470/evoca-firmware",
