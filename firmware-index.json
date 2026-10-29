@@ -2,6 +2,118 @@
   "schema_version": 1,
   "releases": [
     {
+      "kind": "cup",
+      "version": "2.0.0-rc18",
+      "source_repository": "qpwo5470/evoca-firmware",
+      "source_commit": "337e9c904d680b267f6c82fcb8de4a4f0e640210",
+      "transport": "usb-files",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/cup-rc18-syrup-1710b-337e9c904d68/ops408-cup.manifest.json",
+      "manifest_sha256": "a4cb3460c2b3d2a5d5817a94272b8271b5cb61654f9178dad55e77f0248fa692",
+      "manifest_size": 3336,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/cup-rc18-syrup-1710b-337e9c904d68/cup-2.0.0-rc18-usb-337e9c904d68.zip",
+      "prerelease": true,
+      "tag": "cup-rc18-syrup-1710b-337e9c904d68",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/cup-rc18-syrup-1710b-337e9c904d68/LOG-SCHEMA-V2.md",
+      "diagnostics_schemas": [
+        1,
+        2
+      ],
+      "preferred_diagnostics_schema": 2,
+      "compatibility": {
+        "paired_versions": {
+          "cup": "2.0.0-rc18",
+          "syrup": "1.7.10b"
+        },
+        "transaction_protocol": 2,
+        "legacy_safe_transaction_retry": false,
+        "note": "Paired versions provide full ACK v2 and schema2 identity. Installed receiver required for cup-api-ota. No field installation validation."
+      }
+    },
+    {
+      "kind": "syrup",
+      "version": "1.7.10b",
+      "source_repository": "qpwo5470/evoca-firmware",
+      "source_commit": "337e9c904d680b267f6c82fcb8de4a4f0e640210",
+      "transport": "usb-files",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/cup-rc18-syrup-1710b-337e9c904d68/ops408-syrup.manifest.json",
+      "manifest_sha256": "07af7238acb1dd4bf869cf962806bc689e746e141d9a99f9439db083529543a9",
+      "manifest_size": 2043,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/cup-rc18-syrup-1710b-337e9c904d68/syrup-1.7.10b-usb-337e9c904d68.zip",
+      "prerelease": true,
+      "tag": "cup-rc18-syrup-1710b-337e9c904d68",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/cup-rc18-syrup-1710b-337e9c904d68/LOG-SCHEMA-V2.md",
+      "diagnostics_schemas": [
+        1,
+        2
+      ],
+      "preferred_diagnostics_schema": 2,
+      "compatibility": {
+        "paired_versions": {
+          "cup": "2.0.0-rc18",
+          "syrup": "1.7.10b"
+        },
+        "transaction_protocol": 2,
+        "legacy_safe_transaction_retry": false,
+        "note": "Paired versions provide full ACK v2 and schema2 identity. Installed receiver required for cup-api-ota. No field installation validation."
+      }
+    },
+    {
+      "kind": "cup",
+      "version": "2.0.0-rc18",
+      "source_repository": "qpwo5470/evoca-firmware",
+      "source_commit": "337e9c904d680b267f6c82fcb8de4a4f0e640210",
+      "transport": "cup-api-ota",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/cup-rc18-syrup-1710b-337e9c904d68/ops408-cup-ota.manifest.json",
+      "manifest_sha256": "2b80458958f2884564e7146599796041cafc2bee8d53dcf3fa54a273076cb905",
+      "manifest_size": 3053,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/cup-rc18-syrup-1710b-337e9c904d68/cup-2.0.0-rc18-ota-337e9c904d68.zip",
+      "prerelease": true,
+      "tag": "cup-rc18-syrup-1710b-337e9c904d68",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/cup-rc18-syrup-1710b-337e9c904d68/LOG-SCHEMA-V2.md",
+      "diagnostics_schemas": [
+        1,
+        2
+      ],
+      "preferred_diagnostics_schema": 2,
+      "compatibility": {
+        "paired_versions": {
+          "cup": "2.0.0-rc18",
+          "syrup": "1.7.10b"
+        },
+        "transaction_protocol": 2,
+        "legacy_safe_transaction_retry": false,
+        "note": "Paired versions provide full ACK v2 and schema2 identity. Installed receiver required for cup-api-ota. No field installation validation."
+      }
+    },
+    {
+      "kind": "syrup",
+      "version": "1.7.10b",
+      "source_repository": "qpwo5470/evoca-firmware",
+      "source_commit": "337e9c904d680b267f6c82fcb8de4a4f0e640210",
+      "transport": "cup-api-ota",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/cup-rc18-syrup-1710b-337e9c904d68/ops408-syrup-ota.manifest.json",
+      "manifest_sha256": "480ad392706add58b2accbde1478337ebcba29efaaa5b226c52b424519053d62",
+      "manifest_size": 1760,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/cup-rc18-syrup-1710b-337e9c904d68/syrup-1.7.10b-ota-337e9c904d68.zip",
+      "prerelease": true,
+      "tag": "cup-rc18-syrup-1710b-337e9c904d68",
+      "diagnostics_contract_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/cup-rc18-syrup-1710b-337e9c904d68/LOG-SCHEMA-V2.md",
+      "diagnostics_schemas": [
+        1,
+        2
+      ],
+      "preferred_diagnostics_schema": 2,
+      "compatibility": {
+        "paired_versions": {
+          "cup": "2.0.0-rc18",
+          "syrup": "1.7.10b"
+        },
+        "transaction_protocol": 2,
+        "legacy_safe_transaction_retry": false,
+        "note": "Paired versions provide full ACK v2 and schema2 identity. Installed receiver required for cup-api-ota. No field installation validation."
+      }
+    },
+    {
       "kind": "ice-gateway",
       "version": "1.7.0-ice23-pico2-rc15-diagnostics-dev",
       "source_repository": "qpwo5470/W5100S-Wireless-Serial",
