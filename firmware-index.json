@@ -362,12 +362,25 @@
       "prerelease": true,
       "tag": "firmware-20261029-1",
       "variant_name": "standard_time_debug"
-    }
-  ],
-  "pending": [
+    },
     {
       "kind": "ice-gateway",
-      "reason": "Awaiting public build with per-device initial provisioning; previous rc12 artifacts excluded."
+      "version": "1.7.0-ice23-pico2-rc13-usb-auth-dev",
+      "source_repository": "qpwo5470/W5100S-Wireless-Serial",
+      "source_commit": "b1a608a69b53e6a9af0fd4e21462126d805ad7ca",
+      "transport": "gateway-ota",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/gateway-rc13-b1a608a69b53/ops408-ice-gateway.manifest.json",
+      "manifest_sha256": "289aabe4fee66bef382c16c98ca640583c8df52ccb36ac877a5a98dfb3b3cc8a",
+      "manifest_size": 1224,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/gateway-rc13-b1a608a69b53/ice-gateway-b1a608a69b53.ota.bin",
+      "prerelease": true,
+      "tag": "gateway-rc13-b1a608a69b53",
+      "usb_artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/gateway-rc13-b1a608a69b53/ice-gateway-b1a608a69b53.combined.uf2",
+      "usb_manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/gateway-rc13-b1a608a69b53/ops408-ice-gateway-usb.manifest.json",
+      "usb_manifest_sha256": "57b3430b007bfe83f9cbf8d670570d30eb8930f3d4cb1f48dbb73c2dcd3a95cb",
+      "usb_manifest_size": 1146,
+      "provisioning_guide_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/gateway-rc13-b1a608a69b53/USB-PROVISIONING.md"
     }
-  ]
+  ],
+  "pending": []
 }
