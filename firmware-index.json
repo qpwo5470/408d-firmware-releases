@@ -3,6 +3,94 @@
   "releases": [
     {
       "kind": "cup",
+      "version": "2.0.0-rc17",
+      "source_repository": "qpwo5470/evoca-firmware",
+      "source_commit": "885ef9517826a91cca967a7f76f3f291be386ae9",
+      "transport": "usb-files",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/cup-rc17-syrup-179b-885ef9517826/ops408-cup.manifest.json",
+      "manifest_sha256": "cb803e6c577c9de02cb3fe8fbc7d4d640f4f70728b5dde80096fbfa15855c2ad",
+      "manifest_size": 3335,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/cup-rc17-syrup-179b-885ef9517826/cup-2.0.0-rc17-usb-885ef9517826.zip",
+      "prerelease": true,
+      "tag": "cup-rc17-syrup-179b-885ef9517826",
+      "compatibility": {
+        "paired_versions": {
+          "cup": "2.0.0-rc17",
+          "syrup": "1.7.9b"
+        },
+        "transaction_protocol": 2,
+        "legacy_safe_transaction_retry": false,
+        "note": "Full identified acceptance/completion and safe replay require both paired versions. Installed OTA receiver required for cup-api-ota."
+      }
+    },
+    {
+      "kind": "syrup",
+      "version": "1.7.9b",
+      "source_repository": "qpwo5470/evoca-firmware",
+      "source_commit": "885ef9517826a91cca967a7f76f3f291be386ae9",
+      "transport": "usb-files",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/cup-rc17-syrup-179b-885ef9517826/ops408-syrup.manifest.json",
+      "manifest_sha256": "41a4fc53f3f0dbb1be55bb7bb6480a21e22ebe2eb5f625154c27c03d2aed9e4b",
+      "manifest_size": 2041,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/cup-rc17-syrup-179b-885ef9517826/syrup-1.7.9b-usb-885ef9517826.zip",
+      "prerelease": true,
+      "tag": "cup-rc17-syrup-179b-885ef9517826",
+      "compatibility": {
+        "paired_versions": {
+          "cup": "2.0.0-rc17",
+          "syrup": "1.7.9b"
+        },
+        "transaction_protocol": 2,
+        "legacy_safe_transaction_retry": false,
+        "note": "Full identified acceptance/completion and safe replay require both paired versions. Installed OTA receiver required for cup-api-ota."
+      }
+    },
+    {
+      "kind": "cup",
+      "version": "2.0.0-rc17",
+      "source_repository": "qpwo5470/evoca-firmware",
+      "source_commit": "885ef9517826a91cca967a7f76f3f291be386ae9",
+      "transport": "cup-api-ota",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/cup-rc17-syrup-179b-885ef9517826/ops408-cup-ota.manifest.json",
+      "manifest_sha256": "a9a564542c8c2b78047f2a887a33127b79eab56a34d9055e74334288ccc9c865",
+      "manifest_size": 3052,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/cup-rc17-syrup-179b-885ef9517826/cup-2.0.0-rc17-ota-885ef9517826.zip",
+      "prerelease": true,
+      "tag": "cup-rc17-syrup-179b-885ef9517826",
+      "compatibility": {
+        "paired_versions": {
+          "cup": "2.0.0-rc17",
+          "syrup": "1.7.9b"
+        },
+        "transaction_protocol": 2,
+        "legacy_safe_transaction_retry": false,
+        "note": "Full identified acceptance/completion and safe replay require both paired versions. Installed OTA receiver required for cup-api-ota."
+      }
+    },
+    {
+      "kind": "syrup",
+      "version": "1.7.9b",
+      "source_repository": "qpwo5470/evoca-firmware",
+      "source_commit": "885ef9517826a91cca967a7f76f3f291be386ae9",
+      "transport": "cup-api-ota",
+      "manifest_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/cup-rc17-syrup-179b-885ef9517826/ops408-syrup-ota.manifest.json",
+      "manifest_sha256": "8e25321a02b5090348cb82d88f5650df94eb39e37d6a2a4b5a710fcebdf06229",
+      "manifest_size": 1758,
+      "artifact_url": "https://github.com/qpwo5470/408d-firmware-releases/releases/download/cup-rc17-syrup-179b-885ef9517826/syrup-1.7.9b-ota-885ef9517826.zip",
+      "prerelease": true,
+      "tag": "cup-rc17-syrup-179b-885ef9517826",
+      "compatibility": {
+        "paired_versions": {
+          "cup": "2.0.0-rc17",
+          "syrup": "1.7.9b"
+        },
+        "transaction_protocol": 2,
+        "legacy_safe_transaction_retry": false,
+        "note": "Full identified acceptance/completion and safe replay require both paired versions. Installed OTA receiver required for cup-api-ota."
+      }
+    },
+    {
+      "kind": "cup",
       "version": "2.0.0-rc15",
       "source_repository": "qpwo5470/evoca-firmware",
       "source_commit": "99026627dd12f09de2c518cc99596793a7fbfe83",
